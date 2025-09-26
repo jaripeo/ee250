@@ -1,0 +1,38 @@
+# Ignore specific files that shouldn't be in the repository
+daverodr.txt
+fun.txt
+typescript
+
+# Ignore common temporary and system files
+*.tmp
+*.log
+*.bak
+*~
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore personal notes or temporary files
+notes.txt
+temp/
+scratch/

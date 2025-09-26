@@ -1,3 +1,0 @@
-scp ./tcp_server.c pi@my-rpi:~/tcp_server.c
-
-172.20.10.4 2607
