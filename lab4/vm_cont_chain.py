@@ -2,6 +2,7 @@
 #https://github.com/jaripeo/ee250/tree/main/lab4
 
 import time
+import paho.mqtt.client as mqtt
 """This function (or "callback") will be executed when this client receives 
 a connection acknowledgement packet response from the server. """
 
