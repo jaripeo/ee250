@@ -32,22 +32,6 @@ Below are the specific, measurable skills a student will demonstrate by the end 
 
 10. **Machine Learning**: Use machine learning to do data-driven binary classification.
 
-## Repository Structure
-
-This repository contains lab assignments and projects completed throughout the course:
-
-```
-ee250/
-├── lab2/          # Socket programming and networking fundamentals
-├── lab3/          # Advanced networking concepts
-├── lab4/          # MQTT publish-subscribe implementation
-│   ├── vm_start_chain.py    # MQTT ping client
-│   ├── vm_cont_chain.py     # MQTT pong client  
-│   ├── vm_pub.py           # Basic MQTT publisher
-│   └── vm_sub.py           # Basic MQTT subscriber
-└── README.md
-```
-
 ## Technologies Used
 
 - **Programming Languages**: Python
@@ -56,25 +40,6 @@ ee250/
 - **Tools**: Git, GitHub, circuit design software
 - **Libraries**: paho-mqtt, socket programming libraries
 
-## Getting Started
-
-### Prerequisites
-- Python 3.x
-- paho-mqtt library (`pip install paho-mqtt`)
-- Raspberry Pi (for hardware labs)
-- MQTT broker (Mosquitto recommended)
-
-### Running the Labs
-
-Each lab directory contains specific instructions and code. For example, Lab 4 MQTT implementation:
-
-```bash
-# Terminal 1: Run the pong client
-python vm_cont_chain.py
-
-# Terminal 2: Run the ping client to start the chain
-python vm_start_chain.py
-```
 
 ## Course Topics Covered
 
@@ -89,7 +54,7 @@ python vm_start_chain.py
 
 ## Author
 
-**Student**: David Rodriguez  
+**Student**: Dave Rodriguez  
 **Course**: EE 250L - Distributed Systems for the Internet of Things  
 **Institution**: University of Southern California  
 **Semester**: Fall 2025
